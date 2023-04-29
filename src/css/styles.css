@@ -1,3 +1,13 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  padding: 5px;
+}
+
+.posts-container {
+  list-style-type: none;
+}
+
+.capital {
+  text-transform: uppercase;
 }

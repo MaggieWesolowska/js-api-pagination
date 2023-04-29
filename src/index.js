@@ -25,7 +25,7 @@ const getPosts = (page) => {
       posts.forEach((post) => {
         postListMarkup += `
             <li>
-                <h3>[${post.id}] ${post.title}</h3>
+                <h3 class="capital" >${post.id}) ${post.title}</h3>
                 <p>${post.body}</p>
             </li> 
         `;
@@ -45,7 +45,7 @@ const setPagination = () => {
   const buttons = document.querySelectorAll("button");
   buttons.forEach((button) => {
     button.addEventListener("click", (event) => {
-      pageNumber = event.target.textContent;
+      let pageNumber = event.target.textContent;
       getPosts(pageNumber);
     });
   });
