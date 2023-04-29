@@ -9,5 +9,23 @@ body {
 }
 
 .capital {
+  color: #298b87;
   text-transform: uppercase;
+}
+
+.pagination-container {
+  margin-left: 25px;
+}
+
+button {
+  text-align: center;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #6e6d70;
+  transition: box-shadow, 1s, ease-in-out;
+  border: none;
 }
